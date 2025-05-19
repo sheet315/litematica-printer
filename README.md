@@ -33,8 +33,6 @@ other blocks are placed incorrectly, try to lower the printing speed. If certain
 
 ----------
 
-[![Curseforge](http://cf.way2muchnoise.eu/full_litematica_downloads.svg)](https://minecraft.curseforge.com/projects/litematica) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_litematica_all.svg)](https://minecraft.curseforge.com/projects/litematica)
-
 # Litematica
 Litematica is a client-side schematic mod for Minecraft, with also lots of extra functionality
 especially for creative mode (such as schematic pasting, area cloning, moving, filling, deletion).
@@ -54,9 +52,6 @@ For compiled builds (= downloads), see:
 ## Compiling
 * Clone the repository
 * Open a command prompt/terminal to the repository directory
-* On 1.12.x you will first need to run `gradlew setupDecompWorkspace`
-  (unless you have already done it once for another project on the same 1.12.x MC version
-  and mappings and the same mod loader, Forge or LiteLoader)
 * Run `gradlew build` to build the mod
 * The built jar file will be inside `build/libs/`
 
@@ -70,3 +65,7 @@ for monitoring and profiling Java and .NET applications.
 YourKit is the creator of [YourKit Java Profiler](https://www.yourkit.com/java/profiler/),
 [YourKit .NET Profiler](https://www.yourkit.com/.net/profiler/) and
 [YourKit YouMonitor](https://www.yourkit.com/youmonitor), tools for profiling Java and .NET applications.
+
+## Credits
+
+This repo is a mod with bugfixes, forked from [aleksilassila's mod](https://github.com/aleksilassila/litematica-printer)
