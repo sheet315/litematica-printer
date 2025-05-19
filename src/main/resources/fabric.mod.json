@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "litematica_printer",
+  "version": "${version}",
+
+  "name": "Litematica Printer",
+  "description": "A fork of Litematica that adds the missing printer functionality",
+  "authors": [
+    "sheet315/Indestinate"
+  ],
+  "contact": {
+    "homepage": "https://github.com/sheet315/litematica-printer",
+    "sources": "https://github.com/sheet315/litematica-printer"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.indestinate.litematica.printer.LitematicaMixinMod"
+    ]
+  },
+  "mixins": [
+    "litematica-printer.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.7",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": "carpet"
+    }
+  }
+}
+
